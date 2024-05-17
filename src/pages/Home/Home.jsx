@@ -1,3 +1,8 @@
+import './Home.css'
+
+import Header from '../../components/Header/Header';
+import Middle from '../../components/Middle/Middle';
+import Footer from '../../components/Footer/Footer';
 
 
 
@@ -6,7 +11,10 @@
 const Home = () => {
     return (
         <div className="home">
-            <h1>Home</h1>
+            <Header />
+            <Middle />
+            <Footer />
+
 
         </div>
     );

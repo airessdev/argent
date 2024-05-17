@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+.logo {
+  max-width: 100%;
+  width: 200px;
+  align-items: center;
+}
+.signin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.signin-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
